@@ -24,6 +24,7 @@
 - Open the project folder
 - Double click on "build.gradle" and open it through IntellIJ IDEA
 - Let the project build successfully
+- Enter your browserstack userName and accessKey in browserstack.yml file
 - Click on "Terminal" and run the automation scripts
 
 ### Run the Automation Script by the following command:
