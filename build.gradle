@@ -39,11 +39,13 @@ tasks.withType(Test) {
 }
 
 task sampleTest(type: Test) {
-        useTestNG() {
-            dependsOn cleanTest
-            useDefaultListeners = true
-            suites "./src/test/resources/suites/MasterSuite.xml"
-            jvmArgs "-javaagent:${browserstackSDKArtifact.file}"
-        }
+test{
+   useTestNG() {
+      dependsOn cleanTest
+      useDefaultListeners = true
+      suites "./src/test/resources/suites/MasterSuite.xml"
+      jvmArgs "-javaagent:${browserstackSDKArtifact.file}"
+  }
+}
 }
 
