@@ -11,17 +11,39 @@ repositories {
 
 dependencies {
 // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
-    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.9.1'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.12.0'
 // https://mvnrepository.com/artifact/org.testng/testng
-    testImplementation group: 'org.testng', name: 'testng', version: '7.5'
+    testImplementation group: 'org.testng', name: 'testng', version: '7.4.0'
     // https://mvnrepository.com/artifact/io.qameta.allure/allure-testng
     implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.17.3'
     // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.3.0'
-}
-test {
-    useTestNG() {
-        suites "./src/test/resources/suites/MasterSuite.xml"
-    }
+    compileOnly 'com.browserstack:browserstack-java-sdk:latest.release'
 
 }
+//For Browserstack Run
+
+group = 'com.browserstack'
+version = '1.0-SNAPSHOT'
+description = 'testng-browserstack'
+sourceCompatibility = '1.8'
+
+def browserstackSDKArtifact = configurations.compileClasspath.resolvedConfiguration.resolvedArtifacts.find { it.name == 'browserstack-java-sdk' }
+
+tasks.withType(JavaCompile) {
+  options.encoding = 'UTF-8'
+}
+
+tasks.withType(Test) {
+  systemProperties = System.properties
+}
+
+task sampleTest(type: Test) {
+        useTestNG() {
+            dependsOn cleanTest
+            useDefaultListeners = true
+            suites "./src/test/resources/suites/MasterSuite.xml"
+            jvmArgs "-javaagent:${browserstackSDKArtifact.file}"
+        }
+}
+

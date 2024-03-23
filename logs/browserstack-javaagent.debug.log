@@ -1,0 +1,431 @@
+22:18:51.048 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.12.0
+22:18:51.061 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+22:18:51.720 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+22:18:51.724 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\browserstack.yml
+22:18:51.914 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+22:18:52.993 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+22:18:52.993 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+22:18:54.613 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 1'
+22:18:54.613 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+22:18:54.642 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: none, Engine: none
+22:18:54.703 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+22:18:54.704 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+22:18:54.704 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.15
+22:18:54.704 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+22:18:55.597 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+22:18:56.012 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 407ms
+22:18:57.471 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1452ms
+22:18:59.077 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1599ms
+22:18:59.080 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+22:18:59.149 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"s1AiDiW91iX5zZCGpSJV","userName":"tanvirmitul_m5kjvU","event_properties":{"product":"[automate, observability]","buildName":"Amazon-TestRunner","os":"Windows 10","languageVersion":"11.0.21","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":26,"parseDependencies":61},"language":"java","sdkRunId":"6f3ad49b-5d23-4044-b1a3-5d0912254138","buildIdentifier":"#1","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.13.15","hostname":"DESKTOP-5JQLAF6","language_framework":"java_testng","detectedFramework":"testng","detectedSeleniumVersion":"4.12.0","seleniumVersion":"4.12.0"}}
+22:18:59.910 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+22:18:59.910 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+22:19:00.484 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:19:00.483316700Z][ OBSERVABILITY ] Processing Request Kind launchTestSession
+
+22:19:00.485 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/builds
+22:19:02.589 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:19:02.590 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-23T16:19:02.590270700Z][ OBSERVABILITY ] Build creation successfull!
+
+22:19:02.591 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+22:19:02.622 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 23_Mar_2218_DESKTOP_5JQLAF6_Sb8g
+22:19:13.609 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+22:19:15.347 [Test worker] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:19:15.347397500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+22:19:15.729 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+22:19:15.730 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+22:19:15.730 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:19:15.730371600Z][ OBSERVABILITY ] Processing stop observability
+22:19:15.735 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:19:15.734358900Z][ OBSERVABILITY ] Processing Batch 1
+
+22:19:15.735 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+22:19:16.058 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:19:16.058 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-23T16:19:16.058494800Z][ OBSERVABILITY ] Batch event successfull!
+
+22:19:16.060 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:19:16.060487300Z][ OBSERVABILITY ] Processing Request Kind stopBuildUpstream
+
+22:19:16.060 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: PUT api/v1/builds/0w9b4lgirx4qvsepwjbc1aob9pwu92wc8euo2ebb/stop
+22:19:16.392 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:19:16.393 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - Observability stop response: 
+22:19:16.393 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/0w9b4lgirx4qvsepwjbc1aob9pwu92wc8euo2ebb to view build report, insights, and many more debugging information all at one place!
+
+22:19:20.464 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+22:19:20.560 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"s1AiDiW91iX5zZCGpSJV","userName":"tanvirmitul_m5kjvU","event_properties":{"product":"[automate, observability]","buildName":"Amazon-TestRunner","os":"Windows 10","languageVersion":"11.0.21","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":26,"ret-org.openqa.selenium.remote.RemoteWebDriver":539,"retransformClasses":541,"parseDependencies":61},"language":"java","sdkRunId":"6f3ad49b-5d23-4044-b1a3-5d0912254138","buildIdentifier":"#1","userFramework":"testng","testhub_uuid":"0w9b4lgirx4qvsepwjbc1aob9pwu92wc8euo2ebb","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.13.15","hostname":"DESKTOP-5JQLAF6","measures":{"local:start":11008,"sdk:setup":22863,"local:stop":3956},"language_framework":"java_testng","detectedFramework":"testng","productUsage":{"testObservability":{"buildHashedId":"0w9b4lgirx4qvsepwjbc1aob9pwu92wc8euo2ebb","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"sentCount":0,"failedCount":0,"triggeredCount":0},"finished":{"triggeredCount":0,"failedCount":0,"sentCount":0}},"logEvents":{"sentCount":1,"failedCount":0,"triggeredCount":1,"log":{"sentCount":1,"failedCount":0,"triggeredCount":1}},"testEvents":{"started":{"sentCount":0,"failedCount":0,"triggeredCount":0},"finished":{"triggeredCount":0,"failedCount":0,"sentCount":0}},"cbtSessionEvents":{"sentCount":0,"failedCount":0,"triggeredCount":0},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":"success","triggered":true}}}}},"detectedSeleniumVersion":"4.12.0","seleniumVersion":"4.12.0"}}
+22:19:20.943 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+22:21:12.660 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.12.0
+22:21:12.665 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+22:21:13.652 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+22:21:13.656 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\browserstack.yml
+22:21:14.233 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+22:21:15.199 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+22:21:15.199 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+22:21:16.693 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 2'
+22:21:16.693 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+22:21:16.702 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: none, Engine: none
+22:21:16.756 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+22:21:16.756 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+22:21:16.756 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.15
+22:21:16.756 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+22:21:17.697 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+22:21:18.096 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 395ms
+22:21:19.078 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 967ms
+22:21:20.240 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1157ms
+22:21:20.243 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+22:21:20.282 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"s1AiDiW91iX5zZCGpSJV","userName":"tanvirmitul_m5kjvU","event_properties":{"product":"[automate, observability]","buildName":"Amazon-TestRunner","os":"Windows 10","languageVersion":"11.0.21","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":7,"parseDependencies":54},"language":"java","sdkRunId":"f9789e37-fce9-49cb-93f3-58c1eb609b3a","buildIdentifier":"#2","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.13.15","hostname":"DESKTOP-5JQLAF6","language_framework":"java_testng","detectedFramework":"testng","detectedSeleniumVersion":"4.12.0","seleniumVersion":"4.12.0"}}
+22:21:20.793 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+22:21:20.793 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+22:21:21.583 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:21.582574600Z][ OBSERVABILITY ] Processing Request Kind launchTestSession
+
+22:21:21.583 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/builds
+22:21:23.433 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:21:23.435 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-23T16:21:23.434115100Z][ OBSERVABILITY ] Build creation successfull!
+
+22:21:23.435 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+22:21:23.454 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 23_Mar_2221_DESKTOP_5JQLAF6_UgCY
+22:21:32.197 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+22:21:34.256 [Test worker] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:34.256898400Z][ OBSERVABILITY ] Processing Logs patching stream
+22:21:34.342 [setup@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: setup.Setup 
+22:21:34.342 [setup@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: setup.Setup 
+22:21:34.342 [setup@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:34.342 [setup@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: setup.Setup 
+22:21:34.342 [setup@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:34.342 [setup@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:34.464 [setup@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:34.465 [setup@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:34.465 [setup@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:34.465 [setup@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:34.470 [setup@2] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:34.470 [setup@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:34.472 [setup@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:34.472 [setup@1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:34.472 [setup@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:34.473 [setup@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:34.473319800Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+22:21:34.473 [setup@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:34.473319800Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+22:21:34.473 [setup@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:34.473319800Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+22:21:36.498 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:36.498153200Z][ OBSERVABILITY ] Time Since Last Batch Processed 1711210896498
+
+22:21:36.515 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:36.515110400Z][ OBSERVABILITY ] Processing Batch 3
+
+22:21:36.515 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+22:21:36.631 [setup@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:36.630798700Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+22:21:36.830 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:21:36.831 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-23T16:21:36.831543200Z][ OBSERVABILITY ] Batch event successfull!
+
+22:21:40.180 [User can successfully perform search activities-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.180 [User can successfully perform search activities-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.181 [User can successfully perform search activities-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.181 [User can successfully perform search activities-1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.194 [User can successfully perform search activities-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.194 [User can successfully perform search activities-2@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.212 [User can successfully perform search activities-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.213 [User can successfully perform search activities-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.213 [User can successfully perform search activities-0@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.219 [User can successfully perform search activities-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.219 [User can successfully perform search activities-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.219 [User can successfully perform search activities-2@2] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.226 [User can successfully perform search activities-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.227 [User can successfully perform search activities-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.227 [User can successfully perform search activities-1@1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.228 [User can successfully perform search activities-2@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.228713800Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+22:21:40.235 [User can successfully perform search activities-0@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.234698600Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+22:21:40.236 [User can successfully perform search activities-1@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.236695700Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+22:21:40.245 [clickdrpdwn@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: setup.Setup 
+22:21:40.245 [clickdrpdwn@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.247 [clickdrpdwn@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: setup.Setup 
+22:21:40.247 [clickdrpdwn@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.251 [clickdrpdwn@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: setup.Setup 
+22:21:40.252 [clickdrpdwn@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.265 [clickdrpdwn@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.265 [clickdrpdwn@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.266 [clickdrpdwn@1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.267 [clickdrpdwn@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.266773400Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+22:21:40.267 [clickdrpdwn@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunSkipped, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.267 [clickdrpdwn@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.274 [clickdrpdwn@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.274 [clickdrpdwn@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.276 [clickdrpdwn@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.277 [clickdrpdwn@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.277746200Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+22:21:40.277 [clickdrpdwn@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunSkipped, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.277 [clickdrpdwn@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.291 [clickdrpdwn@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.292 [clickdrpdwn@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.294 [clickdrpdwn@1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.303 [clickdrpdwn@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.303674400Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+22:21:40.304 [clickdrpdwn@1] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not found
+22:21:40.308 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: setup.Setup 
+22:21:40.308 [clickdrpdwn@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.308 [screenShot@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.308 [clickdrpdwn@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.310 [clickdrpdwn@2] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.310 [clickdrpdwn@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.310657100Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+22:21:40.311 [clickdrpdwn@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunSkipped, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.311 [clickdrpdwn@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.312 [clickdrpdwn@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.312 [clickdrpdwn@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.316 [clickdrpdwn@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.324 [clickdrpdwn@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.324617800Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+22:21:40.324 [clickdrpdwn@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not found
+22:21:40.324 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.324 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.325 [screenShot@1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.325 [screenShot@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.325617300Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+22:21:40.325 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: setup.Setup 
+22:21:40.325 [screenShot@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.331 [clickdrpdwn@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.331 [clickdrpdwn@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.332 [clickdrpdwn@2] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.339 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: setup.Setup 
+22:21:40.339 [screenShot@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.341 [clickdrpdwn@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.341573400Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+22:21:40.341 [clickdrpdwn@2] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not found
+22:21:40.342 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: setup.Setup 
+22:21:40.343 [screenShot@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.347 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.348 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.348 [screenShot@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.348 [screenShot@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.348554500Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+22:21:40.350 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: setup.Setup 
+22:21:40.351 [screenShot@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.359 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.360 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.360 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.360 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.361 [screenShot@2] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.361 [screenShot@1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.361 [screenShot@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.361521300Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+22:21:40.361 [screenShot@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.361521300Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+22:21:40.364 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: setup.Setup 
+22:21:40.364 [screenShot@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.376 [User can successfully perform search activities-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.376 [User can successfully perform search activities-1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.379 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.379 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.380 [screenShot@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.380 [screenShot@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.380471300Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+22:21:40.392 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.393 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.393 [screenShot@2] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.393 [screenShot@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.393436200Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+22:21:40.399 [User can successfully perform search activities-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.411 [User can successfully perform search activities-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.416 [User can successfully perform search activities-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.416 [User can successfully perform search activities-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.419 [User can successfully perform search activities-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.419 [User can successfully perform search activities-2@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.422 [User can successfully perform search activities-1@1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.429 [User can successfully perform search activities-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.429 [User can successfully perform search activities-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.429 [User can successfully perform search activities-0@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.434 [User can successfully perform search activities-1@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.434324800Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+22:21:40.437 [User can successfully perform search activities-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.437 [User can successfully perform search activities-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.437 [User can successfully perform search activities-0@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.437317800Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+22:21:40.437 [User can successfully perform search activities-2@2] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.442 [insertText@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunSkipped, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.442 [insertText@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.444 [insertText@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunSkipped, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.444 [insertText@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.450 [User can successfully perform search activities-2@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.450282700Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+22:21:40.454 [insertText@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunSkipped, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.455 [insertText@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.458 [insertText@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.458 [insertText@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.459 [insertText@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.483 [insertText@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.483 [insertText@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.488 [insertText@1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.498 [insertText@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.497158500Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+22:21:40.498 [insertText@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not found
+22:21:40.499 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: setup.Setup 
+22:21:40.499 [screenShot@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.500 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.499154300Z][ OBSERVABILITY ] Time Since Last Batch Processed 4001
+
+22:21:40.505 [insertText@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.505135100Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+22:21:40.505 [insertText@1] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not found
+22:21:40.506 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: setup.Setup 
+22:21:40.506 [screenShot@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.509 [insertText@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.510 [insertText@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.510 [insertText@2] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.513 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.513115400Z][ OBSERVABILITY ] Processing Batch 20
+
+22:21:40.513 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+22:21:40.519 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.519 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.523 [screenShot@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.523 [screenShot@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.523088900Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+22:21:40.529 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: setup.Setup 
+22:21:40.529 [screenShot@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.544 [insertText@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.544032400Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+22:21:40.544 [insertText@2] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not found
+22:21:40.550 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.550 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.551 [screenShot@1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.551 [screenShot@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.551015900Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+22:21:40.553 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: setup.Setup 
+22:21:40.554 [screenShot@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.579 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.580 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.580 [screenShot@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.580 [screenShot@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.580932900Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+22:21:40.591 [User can successfully perform search activities-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.591 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.591 [User can successfully perform search activities-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.591 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.591 [screenShot@2] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.591 [screenShot@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.591903700Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+22:21:40.596 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: setup.Setup 
+22:21:40.596 [screenShot@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.599 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: setup.Setup 
+22:21:40.599 [screenShot@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.609 [User can successfully perform search activities-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.609 [User can successfully perform search activities-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.609 [User can successfully perform search activities-0@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.617 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.617 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.617 [screenShot@1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.617 [screenShot@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.617836Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+22:21:40.619 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.619 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.619 [screenShot@2] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.622 [User can successfully perform search activities-0@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.622821700Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+22:21:40.622 [screenShot@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.622821700Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+22:21:40.635 [User can successfully perform search activities-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.635 [User can successfully perform search activities-2@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.644 [closeBrowser@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunSkipped, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.644 [closeBrowser@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.660 [User can successfully perform search activities-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.660 [User can successfully perform search activities-1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.663 [User can successfully perform search activities-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.663 [User can successfully perform search activities-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.664 [User can successfully perform search activities-2@2] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.671 [User can successfully perform search activities-2@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.671690900Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+22:21:40.674 [closeBrowser@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.675 [closeBrowser@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.676 [closeBrowser@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.681 [User can successfully perform search activities-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.681 [User can successfully perform search activities-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.681 [User can successfully perform search activities-1@1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.690 [closeBrowser@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.690640300Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+22:21:40.691 [closeBrowser@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not found
+22:21:40.694 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: setup.Setup 
+22:21:40.696 [screenShot@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.716 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.716 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.718 [screenShot@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.719 [screenShot@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.719563800Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+22:21:40.724 [User can successfully perform search activities-1@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.723552800Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+22:21:40.728 [closeBrowser@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunSkipped, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.729 [closeBrowser@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.744 [closeBrowser@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunSkipped, Test ClassName :: testrunner.HomePageTestRunner 
+22:21:40.744 [closeBrowser@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: testrunner\HomePageTestRunner
+22:21:40.762 [closeBrowser@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.763 [closeBrowser@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.763 [closeBrowser@2] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.769 [closeBrowser@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.770 [closeBrowser@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\testrunner\HomePageTestRunner.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.771 [closeBrowser@1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.814 [closeBrowser@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.814311100Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+22:21:40.814 [closeBrowser@2] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not found
+22:21:40.817 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: setup.Setup 
+22:21:40.817 [screenShot@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.823 [closeBrowser@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.822290700Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+22:21:40.823 [closeBrowser@1] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not found
+22:21:40.825 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: setup.Setup 
+22:21:40.825 [screenShot@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.841 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: setup.Setup 
+22:21:40.841 [screenShot@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.844 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.844 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.845 [screenShot@1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.845 [screenShot@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.845227600Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+22:21:40.855 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: setup.Setup 
+22:21:40.856 [screenShot@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.865 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.865 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.865 [screenShot@2] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.865 [screenShot@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.865172600Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+22:21:40.875 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.875 [screenShot@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.876 [screenShot@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.879 [screenShot@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.876146100Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+22:21:40.914 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: setup.Setup 
+22:21:40.914 [screenShot@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, TestClass :: setup\Setup
+22:21:40.931 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.931 [screenShot@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.932 [screenShot@2] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.932 [screenShot@2] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.932993800Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+22:21:40.959 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, fileSeparator :: \, AbsolutePath :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\., Normalized Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium, File.Separator :: \
+22:21:40.960 [screenShot@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\src\test\java\setup\Setup.java, Absolute Path :: E:\SeleniumProject\Amazon.com_E-commerce_Site_Automation_By_Java_Selenium\.., Normalized Path :: E:\SeleniumProject 
+22:21:40.960 [screenShot@1] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+22:21:40.960 [screenShot@1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:40.960918200Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+22:21:41.162 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:21:41.164 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-23T16:21:41.164374Z][ OBSERVABILITY ] Batch event successfull!
+
+22:21:41.183 [Test worker] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:41.183324Z][ OBSERVABILITY ] Processing Logs patching stream
+22:21:41.440 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+22:21:41.440 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+22:21:41.441 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:41.441801100Z][ OBSERVABILITY ] Processing stop observability
+22:21:41.442 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:41.442796900Z][ OBSERVABILITY ] Processing Batch 20
+
+22:21:41.443 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+22:21:41.764 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:21:41.764 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-23T16:21:41.764351700Z][ OBSERVABILITY ] Batch event successfull!
+
+22:21:41.766 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-23T16:21:41.766339700Z][ OBSERVABILITY ] Processing Request Kind stopBuildUpstream
+
+22:21:41.766 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: PUT api/v1/builds/nd0bxk4wi5twbfvfotl78jk2vgixhqiickgpy9on/stop
+22:21:42.085 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:21:42.086 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - Observability stop response: 
+22:21:42.086 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/nd0bxk4wi5twbfvfotl78jk2vgixhqiickgpy9on to view build report, insights, and many more debugging information all at one place!
+
+22:21:45.438 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+22:21:45.495 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"s1AiDiW91iX5zZCGpSJV","userName":"tanvirmitul_m5kjvU","event_properties":{"product":"[automate, observability]","buildName":"Amazon-TestRunner","os":"Windows 10","languageVersion":"11.0.21","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":7,"ret-org.openqa.selenium.remote.RemoteWebDriver":479,"retransformClasses":480,"parseDependencies":54},"language":"java","sdkRunId":"f9789e37-fce9-49cb-93f3-58c1eb609b3a","buildIdentifier":"#2","userFramework":"testng","testhub_uuid":"nd0bxk4wi5twbfvfotl78jk2vgixhqiickgpy9on","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.13.15","hostname":"DESKTOP-5JQLAF6","measures":{"local:start":8746,"sdk:setup":19819,"local:stop":3340},"language_framework":"java_testng","detectedFramework":"testng","productUsage":{"testObservability":{"buildHashedId":"nd0bxk4wi5twbfvfotl78jk2vgixhqiickgpy9on","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"triggeredCount":12,"failedCount":0,"sentCount":12},"finished":{"triggeredCount":12,"failedCount":0,"sentCount":12},"failed":{"triggeredCount":3,"failedCount":0,"sentCount":3},"skipped":{"triggeredCount":9,"failedCount":0,"sentCount":9}},"logEvents":{"triggeredCount":1,"failedCount":0,"sentCount":1,"log":{"triggeredCount":1,"failedCount":0,"sentCount":1}},"testEvents":{"started":{"triggeredCount":9,"failedCount":0,"sentCount":9},"finished":{"triggeredCount":9,"failedCount":0,"sentCount":9},"skipped":{"triggeredCount":9,"failedCount":0,"sentCount":9}},"cbtSessionEvents":{"triggeredCount":0,"failedCount":0,"sentCount":0},"buildEvents":{"started":{"error":null,"triggered":true,"status":"success"},"finished":{"error":null,"triggered":true,"status":"success"}}}}},"detectedSeleniumVersion":"4.12.0","seleniumVersion":"4.12.0"}}
+22:21:45.873 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
