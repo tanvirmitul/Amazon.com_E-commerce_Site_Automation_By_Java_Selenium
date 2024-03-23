@@ -18,8 +18,8 @@
 - Testing Framework : TestNG
 
 ### Prerequisite: </br>
-- Need to install jdk 1.8, gradle and allure
-- Configure Environment variable for jdk 1.8, gradle and allure
+- Need to install jdk 11 or 17, gradle and allure
+- Configure Environment variable for jdk 11 or 17, gradle and allure
 - Clone this project and unzip it
 - Open the project folder
 - Double click on "build.gradle" and open it through IntellIJ IDEA
